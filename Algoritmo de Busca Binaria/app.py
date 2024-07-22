@@ -8,10 +8,10 @@ lista = [
     "Emily", "Eric", "Evelyn", "Frank", "Gary", "George", "Gregory", "Hannah", "Heather", "Helen" ]
 
 
-nome_procurado = "david"
+nome_procurado = "David"
 
 resultado = Busca_Binaria(lista, 0, len(lista)-1, nome_procurado)
 if resultado != -1:
     print(f"O elemento esta no indice {resultado}")
 else:
-    print("O elemento nao esta na lista")
+    print("O elemento não esta na lista")
