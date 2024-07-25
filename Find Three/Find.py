@@ -7,9 +7,9 @@ def find_Three(list):
     if len(list) < 3:
         return "A arrey deve ter pelo menos 3 elementos"
     
-    maior1 = float()
-    maior2 = float()
-    maior3 = float()
+    maior1 = float('-inf')   # usar '-inf' garante que seu código funcionará corretamente 
+    maior2 = float('-inf')   # independentemente dos valores no array, sejam eles positivos
+    maior3 = float('-inf')   # negativos ou uma combinação de ambos.
 
     for num in list:
         if num > maior1:
