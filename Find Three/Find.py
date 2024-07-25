@@ -1,8 +1,3 @@
-"""
-def find_three(num):
-    for i in range(len(num)):
-        for j in range
-"""   
 def find_Three(list):
     if len(list) < 3:
         return "A arrey deve ter pelo menos 3 elementos"
