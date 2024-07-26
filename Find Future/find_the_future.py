@@ -38,7 +38,4 @@ def nextClosestData(arr, q):
     else:
         return arr[ind]            
 
-def performQueries(arr, Q):
-    for i in range(len(Q)):
-        print(nextClosestData(arr, Q[i]))
-        
+
