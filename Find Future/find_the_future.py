@@ -1,3 +1,6 @@
+"""
+Este código encontra a data mais próxima (a data seguinte) de uma lista de datas 
+para cada consulta fornecida."""
 import functools
 
 def comp(s, t):
