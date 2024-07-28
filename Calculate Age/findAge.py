@@ -1,5 +1,3 @@
-from datetime import datetime
-
 def findAge(data_atual, mes_atual, ano_atual, data_nascimento, mes_nascimento, ano_nascimento):
 
     # Verifica se é ano bissexto e ajusta fevereiro
@@ -26,5 +24,5 @@ def findAge(data_atual, mes_atual, ano_atual, data_nascimento, mes_nascimento, a
 
     # Impresão da idade calculada
     print("Idade Atual")
-    print("Anos:", anos_calculados, "Meses:", meses_calculados, "Dias>:", dias_calculados)
-    
+    print("Anos:", anos_calculados, "Meses:", meses_calculados, "Dias:", dias_calculados)
+
